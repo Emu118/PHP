@@ -1,0 +1,40 @@
+button{
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:250px;
+    margin-bottom: 50px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color:black;
+    text-align: center;
+      box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+  }
+  button:hover {
+    background:#2fdbb6;
+  }
+  button:active {
+    background:#1da88a;
+  }
+  body{
+      background-image: url("https://wallpaperaccess.com/full/429565.jpg");
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      align-items: center;
+      min-height: 100vh;
+      width: 100%;
+      
+  }
+  .container{
+      display: flex;
+      justify-content: center;
+      align-items:  center;
+      flex-direction: column;
+  }
+  
+ 
